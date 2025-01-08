@@ -150,7 +150,9 @@ main {
   width: 267px;
   height: 350px;
   margin: 20px;
-  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
 }
 .skill img{
   width: 44px;
@@ -179,4 +181,118 @@ main {
   line-height: 28px;
   
 
+}
+.my-info{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.detals .title11 .my-detals{
+  font-size: 25px;
+  font-weight: bold;
+}
+.my-conditon{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.resume-container{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom:80px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.resume-container{
+
+}
+.resume-column{
+}
+
+
+.resume-column-title{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.experience{
+
+}
+
+.experience-title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.experience-sub-title{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.experience-description{
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.resume>.btn{
+  display: flex;
+  margin: 69px auto;
+
+}
+
+hr{
+  color: #D1D1D1;
+
+}
+
+/* footer section start */
+.footer-contant{
+  background-color: #FFF8F3;
+  display: flex;
+}
+
+.footer-title{
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.paragrap{
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.column{
+  margin-top: 130px;
+  margin-left: 230px;
+}
+input{
+  width: 461px;
+  height: 64px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  padding: 0px 20px;
+}
+
+.btn3{
+  
+  color: #fff;
+  background-color: #fd6e0a;
+  padding: 15px 28px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+  margin-top: 42px;
+  margin-bottom: 130px;
 }
