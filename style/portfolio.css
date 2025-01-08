@@ -296,3 +296,14 @@ input{
   margin-top: 42px;
   margin-bottom: 130px;
 }
+
+.icon{
+  color: #fd6e0a;
+  
+}
+
+.icon i{
+  color:  #fd6e0a;
+  padding: 5px;
+  margin-right: 20px;
+}
