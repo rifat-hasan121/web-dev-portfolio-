@@ -214,7 +214,9 @@ main {
 
 }
 .resume-column{
+
 }
+
 
 
 .resume-column-title{
@@ -306,4 +308,45 @@ input{
   color:  #fd6e0a;
   padding: 5px;
   margin-right: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .skills-contaner, 
+  .resume-container, 
+  .bannar,
+  nav,
+  .footer-contant,
+  .about-items{
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  .column{
+    margin-left: 0px;
+  }
+  input{
+    /* width: 350px;
+    height: 50px;
+    margin: 5px; */
+    width: calc( 100% - 20%);
+  }
+  .saction-des2{
+    width: 90%;
+  }
+  .about{
+    padding: 5px;
+  }
+  ul{
+    display: none;
+  }
+  .header{
+    background: none;
+  }
+  
+  
 }
